@@ -1,0 +1,8 @@
+name: MiEntorno
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - matplotlib
+  - python
+  - numpy
