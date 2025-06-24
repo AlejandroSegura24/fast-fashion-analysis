@@ -35,11 +35,11 @@ Heatmap: Correlación entre consumo, producción y emisiones.
 Histogramas: Distribución del consumo de ropa o emisiones de CO₂.
 
 5. Limpieza de datos (si es necesario):
-Manejo de valores nulos.
+- Manejo de valores nulos.
 
-Conversión de tipos de datos.
+- Conversión de tipos de datos.
 
-Eliminación de duplicados.
+- Eliminación de duplicados.
 
 6. Ideas para reportar en el README del repositorio:
 Breve introducción al problema de la moda rápida (fast fashion).
