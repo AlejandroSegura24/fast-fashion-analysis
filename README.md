@@ -1,53 +1,59 @@
-📊 Información posible de extraer de tu archivo: true_cost_fast_fashion.csv
-1. Análisis descriptivo:
-- Total de filas y columnas.
+# Análisis Exploratorio del Impacto Ambiental de la Moda Rápida
 
-- ¿Qué variables (columnas) hay? (por ejemplo: País, Consumo de Ropa, Producción, Emisiones de CO₂, etc.).
+Este proyecto contiene un análisis exploratorio de datos sobre el impacto ambiental de la industria de la moda rápida. Se trabaja con un conjunto de datos que incluye información sobre producción textil, consumo de ropa, emisiones de CO₂, uso de agua y generación de residuos por país, año y marca.
 
-- Identificación de valores nulos o inconsistentes.
+## Estructura del proyecto
 
-2. Consultas básicas o resúmenes:
+FAST-FASHION-ANALYSIS/
+├── data/
+│ └── true_cost_fast_fashion.csv # Archivo original con los datos
+├── notebooks/
+│ └── exploracion_fast_fashion.ipynb # Análisis exploratorio completo en Jupyter Notebook
+├── environment.yml # Archivo con las dependencias necesarias
+├── .gitignore # Archivo para ignorar carpetas y archivos innecesarios
+└── README.md # Este archivo
 
-- ¿Qué país consume más ropa al año?
 
-- ¿Qué país genera más residuos textiles?
+## Objetivo
 
-- Promedio de emisiones de CO₂ por país.
+Explorar cómo diferentes marcas, países y años contribuyen al impacto ambiental de la industria textil, a partir de métricas como:
 
-- Top 5 países con mayor producción de ropa.
+- Toneladas de ropa producidas
+- Emisiones de carbono (tCO2e)
+- Uso de agua (millones de litros)
+- Residuos generados (toneladas)
 
-3. Análisis comparativo:
-Comparar países desarrollados vs países en desarrollo (si hay categorización).
+## Herramientas utilizadas
 
-Relación entre consumo de ropa y emisiones de CO₂.
+- Python 3
+- pandas
+- numpy
+- matplotlib
 
-Relación entre producción de ropa y cantidad de residuos generados.
+## Consultas realizadas
 
-4. Visualizaciones posibles:
-Barras: Consumo de ropa por país.
+1. Países que más producen ropa
+2. Promedio de emisiones de CO₂ por país
+3. Países que generan más residuos textiles
+4. Comparación de consumo entre países desarrollados y en desarrollo
+5. Marcas que generan más CO₂ al año
+6. Producción por país dentro de una marca específica
+7. Evolución del impacto ambiental por año
 
-Gráfico de pastel: Porcentaje de producción mundial por país o región.
+## Cómo usar este proyecto
 
-Línea temporal: Si hay datos por año (evolución de consumo o emisiones).
+1. Clonar este repositorio.
+2. Crear un entorno virtual con el archivo `environment.yml`:
 
-Heatmap: Correlación entre consumo, producción y emisiones.
+```bash
+conda env create -f environment.yml
+conda activate fast-fashion-analysis
+```
 
-Histogramas: Distribución del consumo de ropa o emisiones de CO₂.
+3. Abrir el archivo exploracion_fast_fashion.ipynb desde Jupyter Notebook o Visual Studio Code.
 
-5. Limpieza de datos (si es necesario):
-- Manejo de valores nulos.
+4. Ejecutar las celdas en orden para reproducir el análisis.
 
-- Conversión de tipos de datos.
+## Notas
 
-- Eliminación de duplicados.
-
-6. Ideas para reportar en el README del repositorio:
-Breve introducción al problema de la moda rápida (fast fashion).
-
-Qué variables analizas y por qué.
-
-Resumen de hallazgos (ejemplo: “País X tiene el mayor consumo per cápita de ropa”).
-
-Explicación de las gráficas generadas.
-
-Posibles conclusiones o recomendaciones basadas en datos.
+Este proyecto se desarrolló con fines de aprendizaje, aplicando conceptos básicos de análisis de datos con pandas, numpy y matplotlib. Es un punto de partida para análisis más profundos con visualizaciones interactivas o modelos predictivos.
