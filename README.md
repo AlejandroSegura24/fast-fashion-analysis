@@ -6,12 +6,15 @@ Este proyecto contiene un análisis exploratorio de datos sobre el impacto ambie
 
 FAST-FASHION-ANALYSIS/
 ├── data/
-│ └── true_cost_fast_fashion.csv # Archivo original con los datos
+│   └── true_cost_fast_fashion.csv        # Archivo original con los datos
+│
 ├── notebooks/
-│ └── exploracion_fast_fashion.ipynb # Análisis exploratorio completo en Jupyter Notebook
-├── environment.yml # Archivo con las dependencias necesarias
-├── .gitignore # Archivo para ignorar carpetas y archivos innecesarios
-└── README.md # Este archivo
+│   └── exploracion_fast_fashion.ipynb    # Análisis completo en Jupyter Notebook
+│
+├── environment.yml                       # Archivo con las dependencias del entorno
+├── .gitignore                            # Para ignorar archivos y carpetas innecesarias
+└── README.md                             # Descripción general del proyecto
+
 
 
 ## Objetivo
