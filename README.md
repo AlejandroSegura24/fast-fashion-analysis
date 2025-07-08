@@ -4,6 +4,7 @@ Este proyecto contiene un análisis exploratorio de datos sobre el impacto ambie
 
 ## Estructura del proyecto
 
+```
 FAST-FASHION-ANALYSIS/
 ├── data/
 │   └── true_cost_fast_fashion.csv        # Archivo original con los datos
@@ -14,8 +15,7 @@ FAST-FASHION-ANALYSIS/
 ├── environment.yml                       # Archivo con las dependencias del entorno
 ├── .gitignore                            # Para ignorar archivos y carpetas innecesarias
 └── README.md                             # Descripción general del proyecto
-
-
+```
 
 ## Objetivo
 
